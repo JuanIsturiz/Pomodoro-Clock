@@ -1,0 +1,40 @@
+.display {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: transparent .35rem solid;
+  border-radius: 1.5rem;
+}
+
+.timer h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.timer span {
+  font-size: 5rem;
+}
+
+.timer .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttons>button {
+  text-align: center;
+  width: 3rem;
+}
+
+.timer i {
+  color: #fefae0;
+  font-size: 2rem;
+  pointer-events: none;
+}
+
+.timer button {
+  padding: .5rem;
+  background-color: #343a40;
+  cursor: pointer;
+  border: none;
+  border-radius: .5rem;
+}
